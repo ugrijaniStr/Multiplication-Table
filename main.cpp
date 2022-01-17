@@ -30,8 +30,8 @@ void multiplicationTable() {
     cout << "\n";
     for(int h = -4; h <= 50; h++) {
         int r = h += 4;
-        std::cout << r;
-        std::cout << " ";
+        cout << r;
+        cout << " ";
     }
     cout << "\n";
     int u = -5;
@@ -77,9 +77,9 @@ int main() {
     int j = 10;
     while(j -= 1) {
         cout << "[+] Preostalo ---> ";
-        std::cout << j << " sekundi!" << std::endl;
+        cout << j << " sekundi! \n";
     }
     j++;
-    std::cout << " " << std::endl;
+    cout << " \n";
     multiplicationTable();
 }
